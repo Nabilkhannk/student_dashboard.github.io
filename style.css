@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#73BA09;
+}
+
+/* =========== navbar-section =========== */
+
+ul{
+    margin-left: 150px;
+}
+
+ul li{
+    padding-right: 40px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: black;
+    font-weight: bold;
+}
+/* =========== navbar-section =========== */
+
+
+/* =========== img-section =========== */
+.img_section1{
+    /* width: 95%; */
+    /* background-color: red; */
+}
+
+#img_btn{
+    border: none;
+    border-radius: 5px;
+    padding: 9px 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.img_section1 p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.shadow_div{
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    bottom: 200px;
+    left: 780px;
+    background-color: var(--primary-color);
+    z-index: -10;
+}
+
+.img_div{
+    display: flex;
+    justify-content: right;
+    /* margin-left: 60px; */
+}
+/* =========== img-section =========== */
+
+
+/* =========== text-section =========== */
+.text-div{
+    margin-top:30px;
+}
+
+#txt_div1{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    /* text-align: right; */
+}
+
+#txt_div1 h1{
+    font-weight: bold;
+    font-size: 4rem;
+    padding-left: 120px;
+    line-height: 70px;
+}
+
+.txt_outter{
+    margin-left: 160px;
+}
+
+.txt_div2 h4{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.txt_div2 h6{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.txt_div2 p{
+    font-size: 0.8rem;
+    line-height: 13px;
+}
+/* =========== text-section =========== */
+
+
+
+/* =========== card-section =========== */
+.work_heading_div{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.work_heading_div h1{
+    margin-bottom: 45px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.work_heading_div p{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.card{
+    width: 180px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card img{
+    width: 100px;
+}
+
+.card-body{
+    line-height: 15px;
+    padding: 0px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 0px;
+}   
+
+.card-body a{
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--primary-color);
+}
+
+.card_row{
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(5.5 * var(--bs-gutter-x));
+}
+/* =========== card-section =========== */
+
+
+/* =========== stu-section =========== */
+.stu_section{
+    margin-top: 50px;
+}
+
+.stu_section p{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.span_border{
+    border-top: 2px solid var(--primary-color);
+}
+
+.stu_txt_div{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: left;
+}
+
+.stu_txt_div h1{
+    color: #fff;
+    font-size: 3.5rem;
+    padding-left: 30px;
+}
+/* =========== stu-section =========== */
+
+
+/* =========== hobbies-section =========== */
+.hobbies-section{
+    margin-top: 50px;
+}
+
+.hobbies_txt_div h1{
+    color: var(--primary-color);
+    font-size: 3.7rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+
+.hobbies_txt_div p{
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.hobbies-img-div img{
+    padding-right: 20px;
+    
+}
+/* =========== hobbies-section =========== */
+
+
+
+/* =========== footer =========== */
+.footer-section{
+    margin-top:30px;
+}
+
+#footer_inner{
+    padding: 40px 0px;
+    width: 350px;
+    background-color: var(--primary-color);
+}
+
+#footer_inner a{
+    text-decoration: none;
+    padding-left: 70px;
+    color: #fff;
+}
+
+#footer_inner h1{
+    color: #fff;
+    padding-left: 70px;
+}
+
+#footer_inner2 p{
+    padding-right: 20px;
+    color: #fff;
+}
+
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* =========== footer =========== */
+
+
